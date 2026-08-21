@@ -7,7 +7,7 @@
     "gold": 100,
     "streak": 0,
     "days_active": 0,
-    "days_skipped": 0,
+    "days_skipped": 1,
     "quests_completed": 0
   },
   "attributes": {
@@ -27,10 +27,17 @@
   },
   "inventory": [],
   "achievements": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "status": "rest",
+      "event": "\ud83c\udf19 Rest Day",
+      "description": "The kingdom rests today."
+    }
+  ],
   "boss_week": null,
   "boss": {
-    "name": "🐉 README Dragon",
+    "name": "\ud83d\udc09 README Dragon",
     "max_hp": 500,
     "hp": 500,
     "defeated": false

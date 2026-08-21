@@ -3,6 +3,10 @@ import random
 from datetime import date
 from pathlib import Path
 
+from achievements import check_achievements
+from events import random_event
+from inventory import add_item, random_item
+
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "game.json"
@@ -31,44 +35,29 @@ def add_xp(game, amount):
     player["level"] = level_for_xp(player["xp"])
 
     if player["level"] > old_level:
-        return f"🎉 Level Up! You reached Level {player['level']}!"
+        return (
+            f"🎉 Level Up! "
+            f"You reached Level {player['level']}!"
+        )
 
     return None
 
 
-def choose_daily_event():
-    events = [
-        {
-            "type": "quest",
-            "name": "🐛 Defeat the Bug Goblin",
-            "description": "Find and resolve a small issue.",
-            "xp": 100,
-            "gold": 50
-        },
-        {
-            "type": "docs",
-            "name": "📚 Restore the Lost Documentation",
-            "description": "Improve a section of the project documentation.",
-            "xp": 75,
-            "gold": 30
-        },
-        {
-            "type": "testing",
-            "name": "🛡️ Build the Testing Shield",
-            "description": "Add or improve a test.",
-            "xp": 100,
-            "gold": 40
-        },
-        {
-            "type": "treasure",
-            "name": "🎁 Discover Hidden Treasure",
-            "description": "Find something useful to improve in the project.",
-            "xp": 50,
-            "gold": 100
-        }
-    ]
+def damage_boss(game, damage):
+    boss = game["boss"]
 
-    return random.choice(events)
+    if boss["defeated"]:
+        return False
+
+    boss["hp"] = max(0, boss["hp"] - damage)
+
+    game["stats"]["boss_damage"] += damage
+
+    if boss["hp"] == 0:
+        boss["defeated"] = True
+        return True
+
+    return False
 
 
 def process_day():
@@ -77,87 +66,226 @@ def process_day():
 
     today = str(date.today())
 
-    # Prevent duplicate execution on the same day.
-    if any(entry["date"] == today for entry in game["history"]):
-        print("Today's quest has already been processed.")
+    # Prevent the workflow from processing the same day twice.
+    if any(
+        entry.get("date") == today
+        for entry in game.get("history", [])
+    ):
+        print("Today's adventure has already been processed.")
         return
 
-    # 75% active / 25% rest day.
+    # 75% chance of an active day.
+    # 25% chance of a rest day.
     active = random.random() < 0.75
 
+    # ---------------------------------------------------------
+    # REST DAY
+    # ---------------------------------------------------------
+
     if not active:
+
         player["days_skipped"] += 1
+
+        # Reset streak for now.
+        # We can add streak protection later.
         player["streak"] = 0
 
         game["history"].append({
             "date": today,
             "status": "rest",
-            "event": "🌙 Rest Day"
+            "event": "🌙 Rest Day",
+            "description": "The kingdom rests today."
         })
 
         save_game(game)
 
-        print("🌙 Rest day. No commit required.")
+        print()
+        print("🌙 REST DAY")
+        print()
+        print("The kingdom rests today.")
+        print("No quest was assigned.")
+        print()
+
         return
 
-    event = choose_daily_event()
+    # ---------------------------------------------------------
+    # ACTIVE DAY
+    # ---------------------------------------------------------
+
+    event = random_event()
 
     player["days_active"] += 1
     player["streak"] += 1
     player["quests_completed"] += 1
+
+    # XP
+    level_message = add_xp(
+        game,
+        event["xp"]
+    )
+
+    # Gold
     player["gold"] += event["gold"]
 
-    level_message = add_xp(game, event["xp"])
+    # ---------------------------------------------------------
+    # ATTRIBUTES
+    # ---------------------------------------------------------
 
-    if event["type"] == "docs":
-        game["stats"]["docs_improved"] += 1
+    attribute = event.get("attribute")
 
-    elif event["type"] == "testing":
-        game["stats"]["tests_added"] += 1
+    if attribute:
 
-    elif event["type"] == "quest":
+        if attribute not in game["attributes"]:
+            game["attributes"][attribute] = 0
+
+        game["attributes"][attribute] += 1
+
+    # ---------------------------------------------------------
+    # EVENT STATISTICS
+    # ---------------------------------------------------------
+
+    event_type = event.get("type")
+
+    if event_type == "bug":
         game["stats"]["bugs_defeated"] += 1
 
-    elif event["type"] == "treasure":
+    elif event_type == "docs":
+        game["stats"]["docs_improved"] += 1
+
+    elif event_type == "testing":
+        game["stats"]["tests_added"] += 1
+
+    elif event_type == "treasure":
         game["stats"]["treasures_found"] += 1
 
-    game["history"].append({
+    # ---------------------------------------------------------
+    # BOSS DAMAGE
+    # ---------------------------------------------------------
+
+    boss_damage = max(
+        10,
+        event["xp"] // 2
+    )
+
+    boss_defeated = damage_boss(
+        game,
+        boss_damage
+    )
+
+    # ---------------------------------------------------------
+    # RANDOM TREASURE
+    # ---------------------------------------------------------
+
+    treasure_found = False
+
+    if random.random() < 0.20:
+
+        item = random_item()
+
+        add_item(
+            game,
+            item
+        )
+
+        treasure_found = True
+
+    # ---------------------------------------------------------
+    # ACHIEVEMENTS
+    # ---------------------------------------------------------
+
+    new_achievements = check_achievements(game)
+
+    # ---------------------------------------------------------
+    # SAVE HISTORY
+    # ---------------------------------------------------------
+
+    history_entry = {
         "date": today,
         "status": "active",
         "event": event["name"],
+        "type": event_type,
         "description": event["description"],
         "xp": event["xp"],
-        "gold": event["gold"]
-    })
+        "gold": event["gold"],
+        "boss_damage": boss_damage
+    }
 
-    check_achievements(game)
+    if attribute:
+        history_entry["attribute"] = attribute
+
+    if treasure_found:
+        history_entry["treasure"] = item["name"]
+
+    if boss_defeated:
+        history_entry["boss_defeated"] = True
+
+    if new_achievements:
+        history_entry["achievements"] = new_achievements
+
+    game["history"].append(
+        history_entry
+    )
 
     save_game(game)
 
+    # ---------------------------------------------------------
+    # DISPLAY RESULTS
+    # ---------------------------------------------------------
+
+    print()
+    print("╔════════════════════════════════════╗")
+    print("║        ⚔️ GITQUEST ADVENTURE       ║")
+    print("╚════════════════════════════════════╝")
+    print()
+
     print(event["name"])
     print(event["description"])
-    print(f"+{event['xp']} XP")
-    print(f"+{event['gold']} Gold")
+    print()
+
+    print(f"⭐ +{event['xp']} XP")
+    print(f"💰 +{event['gold']} Gold")
+    print(f"🐉 -{boss_damage} Boss HP")
+
+    if attribute:
+        print(
+            f"📊 +1 {attribute.capitalize()}"
+        )
+
+    if treasure_found:
+        print()
+        print(
+            f"🎁 Treasure found: "
+            f"{item['name']} "
+            f"({item['rarity']})"
+        )
 
     if level_message:
+        print()
         print(level_message)
 
+    if new_achievements:
+        print()
+        print("🏆 ACHIEVEMENT UNLOCKED!")
 
-def check_achievements(game):
-    player = game["player"]
-    achievements = game["achievements"]
+        for achievement in new_achievements:
+            print(f"   🏆 {achievement}")
 
-    if player["quests_completed"] >= 1 and "First Quest" not in achievements:
-        achievements.append("First Quest")
+    if boss_defeated:
+        print()
+        print("╔════════════════════════════════════╗")
+        print("║       💀 BOSS DEFEATED! 💀         ║")
+        print("╚════════════════════════════════════╝")
+        print()
+        print(
+            f"You defeated {game['boss']['name']}!"
+        )
 
-    if player["quests_completed"] >= 10 and "Quest Master" not in achievements:
-        achievements.append("Quest Master")
-
-    if player["quests_completed"] >= 25 and "Elite Adventurer" not in achievements:
-        achievements.append("Elite Adventurer")
-
-    if player["streak"] >= 7 and "Seven Day Warrior" not in achievements:
-        achievements.append("Seven Day Warrior")
+    print()
+    print(f"Level: {player['level']}")
+    print(f"XP: {player['xp']}")
+    print(f"Gold: {player['gold']}")
+    print(f"Streak: {player['streak']}")
+    print()
 
 
 if __name__ == "__main__":

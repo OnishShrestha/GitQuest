@@ -1,0 +1,38 @@
+{
+  "player": {
+    "name": "Onish",
+    "level": 2,
+    "xp": 100,
+    "gold": 140,
+    "streak": 1,
+    "quests_completed": 1,
+    "days_active": 1,
+    "days_skipped": 0
+  },
+  "stats": {
+    "bugs_defeated": 0,
+    "docs_improved": 0,
+    "tests_added": 1,
+    "treasures_found": 0,
+    "boss_damage": 0
+  },
+  "achievements": [
+    "First Quest"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "status": "active",
+      "event": "\ud83d\udee1\ufe0f Build the Testing Shield",
+      "description": "Add or improve a test.",
+      "xp": 100,
+      "gold": 40
+    }
+  ],
+  "boss": {
+    "name": "The README Dragon",
+    "max_hp": 500,
+    "hp": 500,
+    "defeated": false
+  }
+}

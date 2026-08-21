@@ -1,0 +1,45 @@
+name: GitQuest Weekly Report
+
+on:
+  schedule:
+    # Every Sunday at 6:00 PM UTC
+    - cron: "0 18 * * 0"
+
+  # Allows you to run it manually from GitHub Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate weekly report
+        run: python src/weekly_report.py
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "OnishShrestha"
+          git config user.email "Y163622584+OnishShrestha@users.noreply.github.com"
+
+      - name: Commit weekly report
+        run: |
+          git add reports/weekly/
+
+          if git diff --cached --quiet; then
+            echo "No weekly report changes to commit."
+            exit 0
+          fi
+
+          git commit -m "📜 Publish weekly adventure report"
+          git push

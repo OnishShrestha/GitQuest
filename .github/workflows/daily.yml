@@ -1,0 +1,46 @@
+name: GitQuest Daily Adventure
+
+on:
+  schedule:
+    - cron: "0 17 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily-adventure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run daily adventure
+        run: python src/game.py
+
+      - name: Update dashboard
+        run: python src/dashboard.py
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "OnishShrestha"
+          git config user.email "163622584+OnishShrestha@users.noreply.github.com"
+
+      - name: Commit game progress
+        run: |
+          git add data/game.json README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "🎮 Daily adventure"
+          git push

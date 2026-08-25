@@ -1,14 +1,14 @@
 # ⚔️ GitQuest
 
-### 🧙 Onish — Level 4
+### 🧙 Onish — Level 5
 
-**XP:** `325`
+**XP:** `425`
 
 `██░░░░░░░░`
 
-**💰 Gold:** 280
+**💰 Gold:** 330
 
-**🔥 Current Streak:** 3 days
+**🔥 Current Streak:** 4 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 3 |
-| 📅 Active Days | 3 |
+| ⚔️ Quests Completed | 4 |
+| 📅 Active Days | 4 |
 | 🌙 Rest Days | 1 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -30,9 +30,9 @@
 
 ### 🐉 README Dragon
 
-HP: `338/500`
+HP: `288/500`
 
-`██████░░░░`
+`█████░░░░░`
 
 Status:
 
@@ -48,6 +48,7 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-08-25 — 🐛 Bug Ambush (+100 XP)
 - 2026-08-24 — 🐛 Bug Ambush (+100 XP)
 - 2026-08-23 — ⚡ Speed Trial (+125 XP)
 - 2026-08-22 — 🐛 Bug Ambush (+100 XP)

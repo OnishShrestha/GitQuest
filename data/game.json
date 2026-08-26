@@ -2,16 +2,16 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 5,
-    "xp": 425,
-    "gold": 330,
-    "streak": 4,
-    "days_active": 4,
+    "level": 6,
+    "xp": 525,
+    "gold": 380,
+    "streak": 5,
+    "days_active": 5,
     "days_skipped": 1,
-    "quests_completed": 4
+    "quests_completed": 5
   },
   "attributes": {
-    "strength": 4,
+    "strength": 5,
     "intelligence": 1,
     "defense": 1,
     "speed": 2,
@@ -23,9 +23,15 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 212
+    "boss_damage": 262
   },
-  "inventory": [],
+  "inventory": [
+    {
+      "name": "\ud83e\uddea XP Potion",
+      "rarity": "Common",
+      "value": 100
+    }
+  ],
   "achievements": [],
   "history": [
     {
@@ -77,13 +83,25 @@
       "gold": 50,
       "boss_damage": 50,
       "attribute": "strength"
+    },
+    {
+      "date": "2026-08-26",
+      "status": "active",
+      "event": "\ud83d\udc1b Bug Ambush",
+      "type": null,
+      "description": "A Bug Goblin attacked the kingdom!",
+      "xp": 100,
+      "gold": 50,
+      "boss_damage": 50,
+      "attribute": "strength",
+      "treasure": "\ud83e\uddea XP Potion"
     }
   ],
   "boss_week": null,
   "boss": {
     "name": "\ud83d\udc09 README Dragon",
     "max_hp": 500,
-    "hp": 288,
+    "hp": 238,
     "defeated": false
   }
 }

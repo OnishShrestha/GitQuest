@@ -5,9 +5,9 @@
     "level": 6,
     "xp": 525,
     "gold": 380,
-    "streak": 5,
+    "streak": 0,
     "days_active": 5,
-    "days_skipped": 1,
+    "days_skipped": 2,
     "quests_completed": 5
   },
   "attributes": {
@@ -95,6 +95,12 @@
       "boss_damage": 50,
       "attribute": "strength",
       "treasure": "\ud83e\uddea XP Potion"
+    },
+    {
+      "date": "2026-08-28",
+      "status": "rest",
+      "event": "\ud83c\udf19 Rest Day",
+      "description": "The kingdom rests today."
     }
   ],
   "boss_week": null,

@@ -18,7 +18,7 @@
 |---|---:|
 | ⚔️ Quests Completed | 5 |
 | 📅 Active Days | 5 |
-| 🌙 Rest Days | 2 |
+| 🌙 Rest Days | 3 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
 | 🧪 Tests Added | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-08-29 — 🌙 Rest Day
 - 2026-08-28 — 🌙 Rest Day
 - 2026-08-26 — 🐛 Bug Ambush (+100 XP)
 - 2026-08-25 — 🐛 Bug Ambush (+100 XP)
 - 2026-08-24 — 🐛 Bug Ambush (+100 XP)
-- 2026-08-23 — ⚡ Speed Trial (+125 XP)
 
 ---
 

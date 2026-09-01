@@ -2,19 +2,19 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 7,
-    "xp": 625,
-    "gold": 440,
-    "streak": 0,
-    "days_active": 6,
+    "level": 8,
+    "xp": 750,
+    "gold": 520,
+    "streak": 1,
+    "days_active": 7,
     "days_skipped": 4,
-    "quests_completed": 6
+    "quests_completed": 7
   },
   "attributes": {
     "strength": 5,
     "intelligence": 1,
     "defense": 2,
-    "speed": 2,
+    "speed": 3,
     "knowledge": 1
   },
   "stats": {
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 312
+    "boss_damage": 374
   },
   "inventory": [
     {
@@ -124,13 +124,24 @@
       "status": "rest",
       "event": "\ud83c\udf19 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-09-01",
+      "status": "active",
+      "event": "\u26a1 Speed Trial",
+      "type": null,
+      "description": "The kingdom challenges your automation skills.",
+      "xp": 125,
+      "gold": 80,
+      "boss_damage": 62,
+      "attribute": "speed"
     }
   ],
   "boss_week": null,
   "boss": {
     "name": "\ud83d\udc09 README Dragon",
     "max_hp": 500,
-    "hp": 188,
+    "hp": 126,
     "defeated": false
   }
 }

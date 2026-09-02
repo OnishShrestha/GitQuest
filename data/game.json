@@ -2,16 +2,16 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 8,
-    "xp": 750,
-    "gold": 520,
-    "streak": 1,
-    "days_active": 7,
+    "level": 9,
+    "xp": 850,
+    "gold": 570,
+    "streak": 2,
+    "days_active": 8,
     "days_skipped": 4,
-    "quests_completed": 7
+    "quests_completed": 8
   },
   "attributes": {
-    "strength": 5,
+    "strength": 6,
     "intelligence": 1,
     "defense": 2,
     "speed": 3,
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 374
+    "boss_damage": 424
   },
   "inventory": [
     {
@@ -135,13 +135,24 @@
       "gold": 80,
       "boss_damage": 62,
       "attribute": "speed"
+    },
+    {
+      "date": "2026-09-02",
+      "status": "active",
+      "event": "\ud83d\udc1b Bug Ambush",
+      "type": null,
+      "description": "A Bug Goblin attacked the kingdom!",
+      "xp": 100,
+      "gold": 50,
+      "boss_damage": 50,
+      "attribute": "strength"
     }
   ],
   "boss_week": null,
   "boss": {
     "name": "\ud83d\udc09 README Dragon",
     "max_hp": 500,
-    "hp": 126,
+    "hp": 76,
     "defeated": false
   }
 }

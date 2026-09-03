@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 9,
-    "xp": 850,
-    "gold": 570,
-    "streak": 2,
-    "days_active": 8,
+    "level": 10,
+    "xp": 925,
+    "gold": 645,
+    "streak": 3,
+    "days_active": 9,
     "days_skipped": 4,
-    "quests_completed": 8
+    "quests_completed": 9
   },
   "attributes": {
     "strength": 6,
     "intelligence": 1,
     "defense": 2,
     "speed": 3,
-    "knowledge": 1
+    "knowledge": 2
   },
   "stats": {
     "quests_completed": 0,
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 424
+    "boss_damage": 461
   },
   "inventory": [
     {
@@ -146,13 +146,24 @@
       "gold": 50,
       "boss_damage": 50,
       "attribute": "strength"
+    },
+    {
+      "date": "2026-09-03",
+      "status": "active",
+      "event": "\ud83d\udcda Ancient Knowledge",
+      "type": null,
+      "description": "You discovered forgotten documentation.",
+      "xp": 75,
+      "gold": 75,
+      "boss_damage": 37,
+      "attribute": "knowledge"
     }
   ],
   "boss_week": null,
   "boss": {
     "name": "\ud83d\udc09 README Dragon",
     "max_hp": 500,
-    "hp": 76,
+    "hp": 39,
     "defeated": false
   }
 }

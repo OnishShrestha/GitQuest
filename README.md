@@ -1,14 +1,14 @@
 # ⚔️ GitQuest
 
-### 🧙 Onish — Level 10
+### 🧙 Onish — Level 11
 
-**XP:** `925`
+**XP:** `1025`
 
 `██░░░░░░░░`
 
-**💰 Gold:** 645
+**💰 Gold:** 705
 
-**🔥 Current Streak:** 0 days
+**🔥 Current Streak:** 1 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 9 |
-| 📅 Active Days | 9 |
+| ⚔️ Quests Completed | 10 |
+| 📅 Active Days | 10 |
 | 🌙 Rest Days | 5 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -30,13 +30,13 @@
 
 ### 🐉 README Dragon
 
-HP: `39/500`
+HP: `0/500`
 
 `░░░░░░░░░░`
 
 Status:
 
-**🔥 Still Alive**
+**💀 DEFEATED**
 
 ---
 
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-09-05 — 🧪 Testing Challenge (+100 XP)
 - 2026-09-04 — 🌙 Rest Day
 - 2026-09-03 — 📚 Ancient Knowledge (+75 XP)
 - 2026-09-02 — 🐛 Bug Ambush (+100 XP)
 - 2026-09-01 — ⚡ Speed Trial (+125 XP)
-- 2026-08-31 — 🌙 Rest Day
 
 ---
 

@@ -18,7 +18,7 @@
 |---|---:|
 | ⚔️ Quests Completed | 11 |
 | 📅 Active Days | 11 |
-| 🌙 Rest Days | 6 |
+| 🌙 Rest Days | 7 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
 | 🧪 Tests Added | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-09-08 — 🌙 Rest Day
 - 2026-09-07 — 🌙 Rest Day
 - 2026-09-06 — ⚡ Speed Trial (+125 XP)
 - 2026-09-05 — 🧪 Testing Challenge (+100 XP)
 - 2026-09-04 — 🌙 Rest Day
-- 2026-09-03 — 📚 Ancient Knowledge (+75 XP)
 
 ---
 

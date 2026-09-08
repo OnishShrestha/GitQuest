@@ -7,7 +7,7 @@
     "gold": 785,
     "streak": 0,
     "days_active": 11,
-    "days_skipped": 6,
+    "days_skipped": 7,
     "quests_completed": 11
   },
   "attributes": {
@@ -189,6 +189,12 @@
     },
     {
       "date": "2026-09-07",
+      "status": "rest",
+      "event": "\ud83c\udf19 Rest Day",
+      "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-09-08",
       "status": "rest",
       "event": "\ud83c\udf19 Rest Day",
       "description": "The kingdom rests today."

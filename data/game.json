@@ -2,18 +2,18 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 12,
-    "xp": 1150,
-    "gold": 785,
-    "streak": 0,
-    "days_active": 11,
+    "level": 13,
+    "xp": 1250,
+    "gold": 845,
+    "streak": 1,
+    "days_active": 12,
     "days_skipped": 7,
-    "quests_completed": 11
+    "quests_completed": 12
   },
   "attributes": {
     "strength": 6,
     "intelligence": 1,
-    "defense": 3,
+    "defense": 4,
     "speed": 4,
     "knowledge": 2
   },
@@ -198,6 +198,17 @@
       "status": "rest",
       "event": "\ud83c\udf19 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-09-09",
+      "status": "active",
+      "event": "\ud83e\uddea Testing Challenge",
+      "type": null,
+      "description": "A Test Zombie appeared in the testing caverns.",
+      "xp": 100,
+      "gold": 60,
+      "boss_damage": 50,
+      "attribute": "defense"
     }
   ],
   "boss_week": null,

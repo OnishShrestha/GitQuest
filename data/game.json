@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 14,
-    "xp": 1375,
-    "gold": 925,
-    "streak": 2,
-    "days_active": 13,
+    "level": 15,
+    "xp": 1425,
+    "gold": 1025,
+    "streak": 3,
+    "days_active": 14,
     "days_skipped": 7,
-    "quests_completed": 13
+    "quests_completed": 14
   },
   "attributes": {
     "strength": 6,
     "intelligence": 1,
     "defense": 4,
     "speed": 5,
-    "knowledge": 2
+    "knowledge": 3
   },
   "stats": {
     "quests_completed": 0,
@@ -30,6 +30,11 @@
       "name": "\ud83e\uddea XP Potion",
       "rarity": "Common",
       "value": 100
+    },
+    {
+      "name": "\ud83d\udc51 Crown of Commits",
+      "rarity": "Legendary",
+      "value": 1000
     }
   ],
   "achievements": [],
@@ -220,6 +225,18 @@
       "gold": 80,
       "boss_damage": 62,
       "attribute": "speed"
+    },
+    {
+      "date": "2026-09-11",
+      "status": "active",
+      "event": "\ud83c\udf81 Treasure Found",
+      "type": null,
+      "description": "You discovered a hidden Git Crystal.",
+      "xp": 50,
+      "gold": 100,
+      "boss_damage": 25,
+      "attribute": "knowledge",
+      "treasure": "\ud83d\udc51 Crown of Commits"
     }
   ],
   "boss_week": null,

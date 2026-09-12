@@ -5,9 +5,9 @@
     "level": 15,
     "xp": 1425,
     "gold": 1025,
-    "streak": 3,
+    "streak": 0,
     "days_active": 14,
-    "days_skipped": 7,
+    "days_skipped": 8,
     "quests_completed": 14
   },
   "attributes": {
@@ -237,6 +237,12 @@
       "boss_damage": 25,
       "attribute": "knowledge",
       "treasure": "\ud83d\udc51 Crown of Commits"
+    },
+    {
+      "date": "2026-09-12",
+      "status": "rest",
+      "event": "\ud83c\udf19 Rest Day",
+      "description": "The kingdom rests today."
     }
   ],
   "boss_week": null,

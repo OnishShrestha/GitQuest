@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 17,
-    "xp": 1650,
-    "gold": 1165,
-    "streak": 2,
-    "days_active": 16,
+    "level": 18,
+    "xp": 1725,
+    "gold": 1240,
+    "streak": 3,
+    "days_active": 17,
     "days_skipped": 8,
-    "quests_completed": 16
+    "quests_completed": 17
   },
   "attributes": {
     "strength": 6,
     "intelligence": 1,
     "defense": 5,
     "speed": 6,
-    "knowledge": 3
+    "knowledge": 4
   },
   "stats": {
     "quests_completed": 0,
@@ -30,6 +30,11 @@
       "name": "\ud83e\uddea XP Potion",
       "rarity": "Common",
       "value": 100
+    },
+    {
+      "name": "\ud83d\udc51 Crown of Commits",
+      "rarity": "Legendary",
+      "value": 1000
     },
     {
       "name": "\ud83d\udc51 Crown of Commits",
@@ -265,6 +270,18 @@
       "gold": 80,
       "boss_damage": 62,
       "attribute": "speed"
+    },
+    {
+      "date": "2026-09-15",
+      "status": "active",
+      "event": "\ud83d\udcda Ancient Knowledge",
+      "type": null,
+      "description": "You discovered forgotten documentation.",
+      "xp": 75,
+      "gold": 75,
+      "boss_damage": 37,
+      "attribute": "knowledge",
+      "treasure": "\ud83d\udc51 Crown of Commits"
     }
   ],
   "boss_week": null,

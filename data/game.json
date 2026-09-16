@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 18,
-    "xp": 1725,
-    "gold": 1240,
-    "streak": 3,
-    "days_active": 17,
+    "level": 19,
+    "xp": 1800,
+    "gold": 1315,
+    "streak": 4,
+    "days_active": 18,
     "days_skipped": 8,
-    "quests_completed": 17
+    "quests_completed": 18
   },
   "attributes": {
     "strength": 6,
     "intelligence": 1,
     "defense": 5,
     "speed": 6,
-    "knowledge": 4
+    "knowledge": 5
   },
   "stats": {
     "quests_completed": 0,
@@ -282,6 +282,17 @@
       "boss_damage": 37,
       "attribute": "knowledge",
       "treasure": "\ud83d\udc51 Crown of Commits"
+    },
+    {
+      "date": "2026-09-16",
+      "status": "active",
+      "event": "\ud83d\udcda Ancient Knowledge",
+      "type": null,
+      "description": "You discovered forgotten documentation.",
+      "xp": 75,
+      "gold": 75,
+      "boss_damage": 37,
+      "attribute": "knowledge"
     }
   ],
   "boss_week": null,

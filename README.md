@@ -2,13 +2,13 @@
 
 ### 🧙 Onish — Level 19
 
-**XP:** `1800`
+**XP:** `1850`
 
-`░░░░░░░░░░`
+`█████░░░░░`
 
-**💰 Gold:** 1315
+**💰 Gold:** 1415
 
-**🔥 Current Streak:** 0 days
+**🔥 Current Streak:** 1 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 18 |
-| 📅 Active Days | 18 |
+| ⚔️ Quests Completed | 19 |
+| 📅 Active Days | 19 |
 | 🌙 Rest Days | 9 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-09-18 — 🎁 Treasure Found (+50 XP)
 - 2026-09-17 — 🌙 Rest Day
 - 2026-09-16 — 📚 Ancient Knowledge (+75 XP)
 - 2026-09-15 — 📚 Ancient Knowledge (+75 XP)
 - 2026-09-14 — ⚡ Speed Trial (+125 XP)
-- 2026-09-13 — 🧪 Testing Challenge (+100 XP)
 
 ---
 

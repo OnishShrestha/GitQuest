@@ -3,19 +3,19 @@
     "name": "Onish",
     "class": "Warrior",
     "level": 19,
-    "xp": 1800,
-    "gold": 1315,
-    "streak": 0,
-    "days_active": 18,
+    "xp": 1850,
+    "gold": 1415,
+    "streak": 1,
+    "days_active": 19,
     "days_skipped": 9,
-    "quests_completed": 18
+    "quests_completed": 19
   },
   "attributes": {
     "strength": 6,
     "intelligence": 1,
     "defense": 5,
     "speed": 6,
-    "knowledge": 5
+    "knowledge": 6
   },
   "stats": {
     "quests_completed": 0,
@@ -299,6 +299,17 @@
       "status": "rest",
       "event": "\ud83c\udf19 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-09-18",
+      "status": "active",
+      "event": "\ud83c\udf81 Treasure Found",
+      "type": null,
+      "description": "You discovered a hidden Git Crystal.",
+      "xp": 50,
+      "gold": 100,
+      "boss_damage": 25,
+      "attribute": "knowledge"
     }
   ],
   "boss_week": null,

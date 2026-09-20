@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 20,
-    "xp": 1950,
-    "gold": 1465,
-    "streak": 2,
-    "days_active": 20,
+    "level": 21,
+    "xp": 2000,
+    "gold": 1565,
+    "streak": 3,
+    "days_active": 21,
     "days_skipped": 9,
-    "quests_completed": 20
+    "quests_completed": 21
   },
   "attributes": {
     "strength": 7,
     "intelligence": 1,
     "defense": 5,
     "speed": 6,
-    "knowledge": 6
+    "knowledge": 7
   },
   "stats": {
     "quests_completed": 0,
@@ -40,6 +40,11 @@
       "name": "\ud83d\udc51 Crown of Commits",
       "rarity": "Legendary",
       "value": 1000
+    },
+    {
+      "name": "\ud83d\udc8e Git Crystal",
+      "rarity": "Rare",
+      "value": 250
     }
   ],
   "achievements": [],
@@ -321,6 +326,18 @@
       "gold": 50,
       "boss_damage": 50,
       "attribute": "strength"
+    },
+    {
+      "date": "2026-09-20",
+      "status": "active",
+      "event": "\ud83c\udf81 Treasure Found",
+      "type": null,
+      "description": "You discovered a hidden Git Crystal.",
+      "xp": 50,
+      "gold": 100,
+      "boss_damage": 25,
+      "attribute": "knowledge",
+      "treasure": "\ud83d\udc8e Git Crystal"
     }
   ],
   "boss_week": null,

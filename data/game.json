@@ -2,18 +2,18 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 21,
-    "xp": 2000,
-    "gold": 1565,
-    "streak": 3,
-    "days_active": 21,
+    "level": 22,
+    "xp": 2100,
+    "gold": 1625,
+    "streak": 4,
+    "days_active": 22,
     "days_skipped": 9,
-    "quests_completed": 21
+    "quests_completed": 22
   },
   "attributes": {
     "strength": 7,
     "intelligence": 1,
-    "defense": 5,
+    "defense": 6,
     "speed": 6,
     "knowledge": 7
   },
@@ -338,6 +338,17 @@
       "boss_damage": 25,
       "attribute": "knowledge",
       "treasure": "\ud83d\udc8e Git Crystal"
+    },
+    {
+      "date": "2026-09-21",
+      "status": "active",
+      "event": "\ud83e\uddea Testing Challenge",
+      "type": null,
+      "description": "A Test Zombie appeared in the testing caverns.",
+      "xp": 100,
+      "gold": 60,
+      "boss_damage": 50,
+      "attribute": "defense"
     }
   ],
   "boss_week": null,

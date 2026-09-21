@@ -1,14 +1,14 @@
 # ⚔️ GitQuest
 
-### 🧙 Onish — Level 21
+### 🧙 Onish — Level 22
 
-**XP:** `2000`
+**XP:** `2100`
 
 `░░░░░░░░░░`
 
-**💰 Gold:** 1565
+**💰 Gold:** 1625
 
-**🔥 Current Streak:** 3 days
+**🔥 Current Streak:** 4 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 21 |
-| 📅 Active Days | 21 |
+| ⚔️ Quests Completed | 22 |
+| 📅 Active Days | 22 |
 | 🌙 Rest Days | 9 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-09-21 — 🧪 Testing Challenge (+100 XP)
 - 2026-09-20 — 🎁 Treasure Found (+50 XP)
 - 2026-09-19 — 🐛 Bug Ambush (+100 XP)
 - 2026-09-18 — 🎁 Treasure Found (+50 XP)
 - 2026-09-17 — 🌙 Rest Day
-- 2026-09-16 — 📚 Ancient Knowledge (+75 XP)
 
 ---
 

@@ -2,19 +2,19 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 23,
-    "xp": 2225,
-    "gold": 1705,
-    "streak": 1,
-    "days_active": 23,
+    "level": 24,
+    "xp": 2350,
+    "gold": 1785,
+    "streak": 2,
+    "days_active": 24,
     "days_skipped": 10,
-    "quests_completed": 23
+    "quests_completed": 24
   },
   "attributes": {
     "strength": 7,
     "intelligence": 1,
     "defense": 6,
-    "speed": 7,
+    "speed": 8,
     "knowledge": 7
   },
   "stats": {
@@ -45,6 +45,11 @@
       "name": "\ud83d\udc8e Git Crystal",
       "rarity": "Rare",
       "value": 250
+    },
+    {
+      "name": "\ud83e\uddea XP Potion",
+      "rarity": "Common",
+      "value": 100
     }
   ],
   "achievements": [],
@@ -366,6 +371,18 @@
       "gold": 80,
       "boss_damage": 62,
       "attribute": "speed"
+    },
+    {
+      "date": "2026-09-24",
+      "status": "active",
+      "event": "\u26a1 Speed Trial",
+      "type": null,
+      "description": "The kingdom challenges your automation skills.",
+      "xp": 125,
+      "gold": 80,
+      "boss_damage": 62,
+      "attribute": "speed",
+      "treasure": "\ud83e\uddea XP Potion"
     }
   ],
   "boss_week": null,

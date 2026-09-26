@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 24,
-    "xp": 2350,
-    "gold": 1785,
-    "streak": 0,
-    "days_active": 24,
+    "level": 25,
+    "xp": 2425,
+    "gold": 1860,
+    "streak": 1,
+    "days_active": 25,
     "days_skipped": 11,
-    "quests_completed": 24
+    "quests_completed": 25
   },
   "attributes": {
     "strength": 7,
     "intelligence": 1,
     "defense": 6,
     "speed": 8,
-    "knowledge": 7
+    "knowledge": 8
   },
   "stats": {
     "quests_completed": 0,
@@ -389,6 +389,17 @@
       "status": "rest",
       "event": "\ud83c\udf19 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-09-26",
+      "status": "active",
+      "event": "\ud83d\udcda Ancient Knowledge",
+      "type": null,
+      "description": "You discovered forgotten documentation.",
+      "xp": 75,
+      "gold": 75,
+      "boss_damage": 37,
+      "attribute": "knowledge"
     }
   ],
   "boss_week": null,

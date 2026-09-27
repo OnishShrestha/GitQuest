@@ -2,18 +2,18 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 25,
-    "xp": 2425,
-    "gold": 1860,
-    "streak": 1,
-    "days_active": 25,
+    "level": 26,
+    "xp": 2525,
+    "gold": 1920,
+    "streak": 2,
+    "days_active": 26,
     "days_skipped": 11,
-    "quests_completed": 25
+    "quests_completed": 26
   },
   "attributes": {
     "strength": 7,
     "intelligence": 1,
-    "defense": 6,
+    "defense": 7,
     "speed": 8,
     "knowledge": 8
   },
@@ -400,6 +400,17 @@
       "gold": 75,
       "boss_damage": 37,
       "attribute": "knowledge"
+    },
+    {
+      "date": "2026-09-27",
+      "status": "active",
+      "event": "\ud83e\uddea Testing Challenge",
+      "type": null,
+      "description": "A Test Zombie appeared in the testing caverns.",
+      "xp": 100,
+      "gold": 60,
+      "boss_damage": 50,
+      "attribute": "defense"
     }
   ],
   "boss_week": null,

@@ -2,13 +2,13 @@
 
 ### 🧙 Onish — Level 26
 
-**XP:** `2525`
+**XP:** `2575`
 
-`██░░░░░░░░`
+`███████░░░`
 
-**💰 Gold:** 1920
+**💰 Gold:** 2020
 
-**🔥 Current Streak:** 2 days
+**🔥 Current Streak:** 3 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 26 |
-| 📅 Active Days | 26 |
+| ⚔️ Quests Completed | 27 |
+| 📅 Active Days | 27 |
 | 🌙 Rest Days | 11 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-09-28 — 🎁 Treasure Found (+50 XP)
 - 2026-09-27 — 🧪 Testing Challenge (+100 XP)
 - 2026-09-26 — 📚 Ancient Knowledge (+75 XP)
 - 2026-09-25 — 🌙 Rest Day
 - 2026-09-24 — ⚡ Speed Trial (+125 XP)
-- 2026-09-23 — ⚡ Speed Trial (+125 XP)
 
 ---
 

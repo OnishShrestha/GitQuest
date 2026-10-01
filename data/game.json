@@ -5,9 +5,9 @@
     "level": 29,
     "xp": 2800,
     "gold": 2160,
-    "streak": 5,
+    "streak": 0,
     "days_active": 29,
-    "days_skipped": 11,
+    "days_skipped": 12,
     "quests_completed": 29
   },
   "attributes": {
@@ -444,6 +444,12 @@
       "gold": 60,
       "boss_damage": 50,
       "attribute": "defense"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "rest",
+      "event": "\ud83c\udf19 Rest Day",
+      "description": "The kingdom rests today."
     }
   ],
   "boss_week": null,

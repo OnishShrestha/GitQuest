@@ -2,16 +2,16 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 29,
-    "xp": 2800,
-    "gold": 2160,
-    "streak": 0,
-    "days_active": 29,
+    "level": 30,
+    "xp": 2900,
+    "gold": 2210,
+    "streak": 1,
+    "days_active": 30,
     "days_skipped": 13,
-    "quests_completed": 29
+    "quests_completed": 30
   },
   "attributes": {
-    "strength": 7,
+    "strength": 8,
     "intelligence": 1,
     "defense": 8,
     "speed": 9,
@@ -456,6 +456,17 @@
       "status": "rest",
       "event": "\ud83c\udf19 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-10-03",
+      "status": "active",
+      "event": "\ud83d\udc1b Bug Ambush",
+      "type": null,
+      "description": "A Bug Goblin attacked the kingdom!",
+      "xp": 100,
+      "gold": 50,
+      "boss_damage": 50,
+      "attribute": "strength"
     }
   ],
   "boss_week": null,

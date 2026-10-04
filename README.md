@@ -1,14 +1,14 @@
 # ⚔️ GitQuest
 
-### 🧙 Onish — Level 30
+### 🧙 Onish — Level 31
 
-**XP:** `2900`
+**XP:** `3025`
 
-`░░░░░░░░░░`
+`██░░░░░░░░`
 
-**💰 Gold:** 2210
+**💰 Gold:** 2290
 
-**🔥 Current Streak:** 1 days
+**🔥 Current Streak:** 2 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 30 |
-| 📅 Active Days | 30 |
+| ⚔️ Quests Completed | 31 |
+| 📅 Active Days | 31 |
 | 🌙 Rest Days | 13 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-10-04 — ⚡ Speed Trial (+125 XP)
 - 2026-10-03 — 🐛 Bug Ambush (+100 XP)
 - 2026-10-02 — 🌙 Rest Day
 - 2026-10-01 — 🌙 Rest Day
 - 2026-09-30 — 🧪 Testing Challenge (+100 XP)
-- 2026-09-29 — ⚡ Speed Trial (+125 XP)
 
 ---
 

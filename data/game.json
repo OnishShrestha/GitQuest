@@ -2,16 +2,16 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 34,
-    "xp": 3325,
-    "gold": 2460,
-    "streak": 1,
-    "days_active": 34,
+    "level": 35,
+    "xp": 3425,
+    "gold": 2510,
+    "streak": 2,
+    "days_active": 35,
     "days_skipped": 14,
-    "quests_completed": 34
+    "quests_completed": 35
   },
   "attributes": {
-    "strength": 9,
+    "strength": 10,
     "intelligence": 1,
     "defense": 10,
     "speed": 10,
@@ -509,6 +509,17 @@
     },
     {
       "date": "2026-10-08",
+      "status": "active",
+      "event": "\ud83d\udc1b Bug Ambush",
+      "type": null,
+      "description": "A Bug Goblin attacked the kingdom!",
+      "xp": 100,
+      "gold": 50,
+      "boss_damage": 50,
+      "attribute": "strength"
+    },
+    {
+      "date": "2026-10-09",
       "status": "active",
       "event": "\ud83d\udc1b Bug Ambush",
       "type": null,

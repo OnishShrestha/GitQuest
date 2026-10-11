@@ -2,13 +2,13 @@
 
 ### 🧙 Onish — Level 35
 
-**XP:** `3425`
+**XP:** `3475`
 
-`██░░░░░░░░`
+`███████░░░`
 
-**💰 Gold:** 2510
+**💰 Gold:** 2610
 
-**🔥 Current Streak:** 0 days
+**🔥 Current Streak:** 1 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 35 |
-| 📅 Active Days | 35 |
+| ⚔️ Quests Completed | 36 |
+| 📅 Active Days | 36 |
 | 🌙 Rest Days | 15 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-10-11 — 🎁 Treasure Found (+50 XP)
 - 2026-10-10 — 🌙 Rest Day
 - 2026-10-09 — 🐛 Bug Ambush (+100 XP)
 - 2026-10-08 — 🐛 Bug Ambush (+100 XP)
 - 2026-10-07 — 🌙 Rest Day
-- 2026-10-06 — 🧪 Testing Challenge (+100 XP)
 
 ---
 

@@ -8,7 +8,7 @@
 
 **💰 Gold:** 2610
 
-**🔥 Current Streak:** 1 days
+**🔥 Current Streak:** 0 days
 
 ---
 
@@ -18,7 +18,7 @@
 |---|---:|
 | ⚔️ Quests Completed | 36 |
 | 📅 Active Days | 36 |
-| 🌙 Rest Days | 15 |
+| 🌙 Rest Days | 16 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
 | 🧪 Tests Added | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-10-12 — 🌙 Rest Day
 - 2026-10-11 — 🎁 Treasure Found (+50 XP)
 - 2026-10-10 — 🌙 Rest Day
 - 2026-10-09 — 🐛 Bug Ambush (+100 XP)
 - 2026-10-08 — 🐛 Bug Ambush (+100 XP)
-- 2026-10-07 — 🌙 Rest Day
 
 ---
 

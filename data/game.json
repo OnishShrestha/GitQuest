@@ -2,16 +2,16 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 37,
-    "xp": 3675,
-    "gold": 2730,
-    "streak": 2,
-    "days_active": 38,
+    "level": 38,
+    "xp": 3775,
+    "gold": 2780,
+    "streak": 3,
+    "days_active": 39,
     "days_skipped": 16,
-    "quests_completed": 38
+    "quests_completed": 39
   },
   "attributes": {
-    "strength": 10,
+    "strength": 11,
     "intelligence": 1,
     "defense": 12,
     "speed": 10,
@@ -579,6 +579,17 @@
       "boss_damage": 50,
       "attribute": "defense",
       "treasure": "\ud83d\udc8e Git Crystal"
+    },
+    {
+      "date": "2026-10-15",
+      "status": "active",
+      "event": "\ud83d\udc1b Bug Ambush",
+      "type": null,
+      "description": "A Bug Goblin attacked the kingdom!",
+      "xp": 100,
+      "gold": 50,
+      "boss_damage": 50,
+      "attribute": "strength"
     }
   ],
   "boss_week": null,

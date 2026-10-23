@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 45,
-    "xp": 4450,
-    "gold": 3330,
-    "streak": 10,
-    "days_active": 46,
+    "level": 46,
+    "xp": 4500,
+    "gold": 3430,
+    "streak": 11,
+    "days_active": 47,
     "days_skipped": 16,
-    "quests_completed": 46
+    "quests_completed": 47
   },
   "attributes": {
     "strength": 11,
     "intelligence": 1,
     "defense": 13,
     "speed": 13,
-    "knowledge": 13
+    "knowledge": 14
   },
   "stats": {
     "quests_completed": 0,
@@ -679,6 +679,17 @@
       "gold": 60,
       "boss_damage": 50,
       "attribute": "defense"
+    },
+    {
+      "date": "2026-10-23",
+      "status": "active",
+      "event": "\ud83c\udf81 Treasure Found",
+      "type": null,
+      "description": "You discovered a hidden Git Crystal.",
+      "xp": 50,
+      "gold": 100,
+      "boss_damage": 25,
+      "attribute": "knowledge"
     }
   ],
   "boss_week": null,

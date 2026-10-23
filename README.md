@@ -1,14 +1,14 @@
 # ⚔️ GitQuest
 
-### 🧙 Onish — Level 45
+### 🧙 Onish — Level 46
 
-**XP:** `4450`
+**XP:** `4500`
 
-`█████░░░░░`
+`░░░░░░░░░░`
 
-**💰 Gold:** 3330
+**💰 Gold:** 3430
 
-**🔥 Current Streak:** 10 days
+**🔥 Current Streak:** 11 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 46 |
-| 📅 Active Days | 46 |
+| ⚔️ Quests Completed | 47 |
+| 📅 Active Days | 47 |
 | 🌙 Rest Days | 16 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-10-23 — 🎁 Treasure Found (+50 XP)
 - 2026-10-22 — 🧪 Testing Challenge (+100 XP)
 - 2026-10-21 — 📚 Ancient Knowledge (+75 XP)
 - 2026-10-20 — 📚 Ancient Knowledge (+75 XP)
 - 2026-10-19 — ⚡ Speed Trial (+125 XP)
-- 2026-10-18 — ⚡ Speed Trial (+125 XP)
 
 ---
 

@@ -3,19 +3,19 @@
     "name": "Onish",
     "class": "Warrior",
     "level": 48,
-    "xp": 4700,
-    "gold": 3540,
-    "streak": 13,
-    "days_active": 49,
+    "xp": 4775,
+    "gold": 3615,
+    "streak": 14,
+    "days_active": 50,
     "days_skipped": 16,
-    "quests_completed": 49
+    "quests_completed": 50
   },
   "attributes": {
     "strength": 12,
     "intelligence": 1,
     "defense": 14,
     "speed": 13,
-    "knowledge": 14
+    "knowledge": 15
   },
   "stats": {
     "quests_completed": 0,
@@ -712,6 +712,17 @@
       "gold": 60,
       "boss_damage": 50,
       "attribute": "defense"
+    },
+    {
+      "date": "2026-10-26",
+      "status": "active",
+      "event": "\ud83d\udcda Ancient Knowledge",
+      "type": null,
+      "description": "You discovered forgotten documentation.",
+      "xp": 75,
+      "gold": 75,
+      "boss_damage": 37,
+      "attribute": "knowledge"
     }
   ],
   "boss_week": null,

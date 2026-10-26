@@ -2,13 +2,13 @@
 
 ### 🧙 Onish — Level 48
 
-**XP:** `4700`
+**XP:** `4775`
 
-`░░░░░░░░░░`
+`███████░░░`
 
-**💰 Gold:** 3540
+**💰 Gold:** 3615
 
-**🔥 Current Streak:** 13 days
+**🔥 Current Streak:** 14 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 49 |
-| 📅 Active Days | 49 |
+| ⚔️ Quests Completed | 50 |
+| 📅 Active Days | 50 |
 | 🌙 Rest Days | 16 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-10-26 — 📚 Ancient Knowledge (+75 XP)
 - 2026-10-25 — 🧪 Testing Challenge (+100 XP)
 - 2026-10-24 — 🐛 Bug Ambush (+100 XP)
 - 2026-10-23 — 🎁 Treasure Found (+50 XP)
 - 2026-10-22 — 🧪 Testing Challenge (+100 XP)
-- 2026-10-21 — 📚 Ancient Knowledge (+75 XP)
 
 ---
 

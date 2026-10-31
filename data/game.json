@@ -2,19 +2,19 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 50,
-    "xp": 4950,
-    "gold": 3890,
-    "streak": 2,
-    "days_active": 53,
+    "level": 51,
+    "xp": 5075,
+    "gold": 3970,
+    "streak": 3,
+    "days_active": 54,
     "days_skipped": 17,
-    "quests_completed": 53
+    "quests_completed": 54
   },
   "attributes": {
     "strength": 12,
     "intelligence": 1,
     "defense": 14,
-    "speed": 13,
+    "speed": 14,
     "knowledge": 18
   },
   "stats": {
@@ -762,6 +762,17 @@
       "gold": 100,
       "boss_damage": 25,
       "attribute": "knowledge"
+    },
+    {
+      "date": "2026-10-31",
+      "status": "active",
+      "event": "\u26a1 Speed Trial",
+      "type": null,
+      "description": "The kingdom challenges your automation skills.",
+      "xp": 125,
+      "gold": 80,
+      "boss_damage": 62,
+      "attribute": "speed"
     }
   ],
   "boss_week": null,

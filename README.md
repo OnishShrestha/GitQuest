@@ -8,7 +8,7 @@
 
 **💰 Gold:** 3970
 
-**🔥 Current Streak:** 3 days
+**🔥 Current Streak:** 0 days
 
 ---
 
@@ -18,7 +18,7 @@
 |---|---:|
 | ⚔️ Quests Completed | 54 |
 | 📅 Active Days | 54 |
-| 🌙 Rest Days | 17 |
+| 🌙 Rest Days | 18 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
 | 🧪 Tests Added | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-11-01 — 🌙 Rest Day
 - 2026-10-31 — ⚡ Speed Trial (+125 XP)
 - 2026-10-30 — 🎁 Treasure Found (+50 XP)
 - 2026-10-29 — 📚 Ancient Knowledge (+75 XP)
 - 2026-10-28 — 🌙 Rest Day
-- 2026-10-27 — 🎁 Treasure Found (+50 XP)
 
 ---
 

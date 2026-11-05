@@ -1,3 +1,4 @@
+
 name: GitQuest Daily Adventure
 
 on:
@@ -22,9 +23,15 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Check whether a new week has started
+      - name: Check and reset weekly boss
+        run: python src/start_week.py
+
+      # Run the daily quest
       - name: Run daily adventure
         run: python src/game.py
 
+      # Update README dashboard
       - name: Update dashboard
         run: python src/dashboard.py
 

@@ -1,3 +1,4 @@
+
 name: GitQuest Weekly Report
 
 on:
@@ -5,7 +6,6 @@ on:
     # Every Sunday at 6:00 PM UTC
     - cron: "0 18 * * 0"
 
-  # Allows you to run it manually from GitHub Actions
   workflow_dispatch:
 
 permissions:
@@ -30,7 +30,7 @@ jobs:
       - name: Configure Git identity
         run: |
           git config user.name "OnishShrestha"
-          git config user.email "Y163622584+OnishShrestha@users.noreply.github.com"
+          git config user.email "163622584+OnishShrestha@users.noreply.github.com"
 
       - name: Commit weekly report
         run: |

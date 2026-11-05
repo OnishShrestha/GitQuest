@@ -1,14 +1,14 @@
 # ⚔️ GitQuest
 
-### 🧙 Onish — Level 2
+### 🧙 Onish — Level 54
 
-**XP:** `100`
+**XP:** `5300`
 
 `░░░░░░░░░░`
 
-**💰 Gold:** 140
+**💰 Gold:** 4205
 
-**🔥 Current Streak:** 1 days
+**🔥 Current Streak:** 3 days
 
 ---
 
@@ -16,39 +16,43 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 1 |
-| 📅 Active Days | 1 |
-| 🌙 Rest Days | 0 |
+| ⚔️ Quests Completed | 57 |
+| 📅 Active Days | 57 |
+| 🌙 Rest Days | 18 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
-| 🧪 Tests Added | 1 |
+| 🧪 Tests Added | 0 |
 | 🎁 Treasures Found | 0 |
 
 ---
 
 ## 🐉 Weekly Boss
 
-### The README Dragon
+### 🐉 README Dragon
 
-HP: `500/500`
+HP: `0/500`
 
-`██████████`
+`░░░░░░░░░░`
 
 Status:
 
-**🔥 Still Alive**
+**💀 DEFEATED**
 
 ---
 
 ## 🏆 Achievements
 
-- 🏆 First Quest
+- No achievements yet.
 
 ---
 
 ## 📜 Recent Adventures
 
-- 2026-08-21 — 🛡️ Build the Testing Shield (+100 XP)
+- 2026-11-04 — 🧪 Testing Challenge (+100 XP)
+- 2026-11-03 — 📚 Ancient Knowledge (+75 XP)
+- 2026-11-02 — 🎁 Treasure Found (+50 XP)
+- 2026-11-01 — 🌙 Rest Day
+- 2026-10-31 — ⚡ Speed Trial (+125 XP)
 
 ---
 

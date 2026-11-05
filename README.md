@@ -2,13 +2,13 @@
 
 ### 🧙 Onish — Level 54
 
-**XP:** `5300`
+**XP:** `5350`
 
-`░░░░░░░░░░`
+`█████░░░░░`
 
-**💰 Gold:** 4205
+**💰 Gold:** 4305
 
-**🔥 Current Streak:** 3 days
+**🔥 Current Streak:** 4 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 57 |
-| 📅 Active Days | 57 |
+| ⚔️ Quests Completed | 58 |
+| 📅 Active Days | 58 |
 | 🌙 Rest Days | 18 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -28,15 +28,15 @@
 
 ## 🐉 Weekly Boss
 
-### 🐉 README Dragon
+### 🧟 Test Zombie
 
-HP: `0/500`
+HP: `725/750`
 
-`░░░░░░░░░░`
+`█████████░`
 
 Status:
 
-**💀 DEFEATED**
+**🔥 Still Alive**
 
 ---
 
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-11-05 — 🎁 Treasure Found (+50 XP)
 - 2026-11-04 — 🧪 Testing Challenge (+100 XP)
 - 2026-11-03 — 📚 Ancient Knowledge (+75 XP)
 - 2026-11-02 — 🎁 Treasure Found (+50 XP)
 - 2026-11-01 — 🌙 Rest Day
-- 2026-10-31 — ⚡ Speed Trial (+125 XP)
 
 ---
 

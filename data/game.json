@@ -3,19 +3,19 @@
     "name": "Onish",
     "class": "Warrior",
     "level": 54,
-    "xp": 5300,
-    "gold": 4205,
-    "streak": 3,
-    "days_active": 57,
+    "xp": 5350,
+    "gold": 4305,
+    "streak": 4,
+    "days_active": 58,
     "days_skipped": 18,
-    "quests_completed": 57
+    "quests_completed": 58
   },
   "attributes": {
     "strength": 12,
     "intelligence": 1,
     "defense": 15,
     "speed": 14,
-    "knowledge": 20
+    "knowledge": 21
   },
   "stats": {
     "quests_completed": 0,
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 511
+    "boss_damage": 25
   },
   "inventory": [
     {
@@ -812,13 +812,24 @@
       "gold": 60,
       "boss_damage": 50,
       "attribute": "defense"
+    },
+    {
+      "date": "2026-11-05",
+      "status": "active",
+      "event": "\ud83c\udf81 Treasure Found",
+      "type": null,
+      "description": "You discovered a hidden Git Crystal.",
+      "xp": 50,
+      "gold": 100,
+      "boss_damage": 25,
+      "attribute": "knowledge"
     }
   ],
-  "boss_week": null,
+  "boss_week": "2026-W45",
   "boss": {
-    "name": "\ud83d\udc09 README Dragon",
-    "max_hp": 500,
-    "hp": 0,
-    "defeated": true
+    "name": "\ud83e\udddf Test Zombie",
+    "max_hp": 750,
+    "hp": 725,
+    "defeated": false
   }
 }

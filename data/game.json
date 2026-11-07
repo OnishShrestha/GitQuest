@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 54,
-    "xp": 5350,
-    "gold": 4305,
-    "streak": 0,
-    "days_active": 58,
+    "level": 55,
+    "xp": 5425,
+    "gold": 4380,
+    "streak": 1,
+    "days_active": 59,
     "days_skipped": 19,
-    "quests_completed": 58
+    "quests_completed": 59
   },
   "attributes": {
     "strength": 12,
     "intelligence": 1,
     "defense": 15,
     "speed": 14,
-    "knowledge": 21
+    "knowledge": 22
   },
   "stats": {
     "quests_completed": 0,
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 25
+    "boss_damage": 62
   },
   "inventory": [
     {
@@ -829,13 +829,27 @@
       "status": "rest",
       "event": "🌙 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-11-07",
+      "status": "active",
+      "event": "📚 Ancient Knowledge",
+      "type": null,
+      "description": "You discovered forgotten documentation.",
+      "xp": 75,
+      "gold": 75,
+      "boss_damage": 37,
+      "attribute": "knowledge"
     }
   ],
   "boss_week": "2026-W45",
   "boss": {
     "name": "🧟 Test Zombie",
     "max_hp": 750,
-    "hp": 725,
+    "hp": 688,
     "defeated": false
-  }
+  },
+  "hidden_achievement_checks": [
+    "2026-11-07"
+  ]
 }

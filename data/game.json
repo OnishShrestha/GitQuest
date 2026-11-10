@@ -3,19 +3,19 @@
     "name": "Onish",
     "class": "Warrior",
     "level": 56,
-    "xp": 5500,
-    "gold": 4455,
-    "streak": 2,
-    "days_active": 60,
+    "xp": 5575,
+    "gold": 4530,
+    "streak": 3,
+    "days_active": 61,
     "days_skipped": 19,
-    "quests_completed": 60
+    "quests_completed": 61
   },
   "attributes": {
     "strength": 12,
     "intelligence": 1,
     "defense": 15,
     "speed": 14,
-    "knowledge": 23
+    "knowledge": 24
   },
   "stats": {
     "quests_completed": 0,
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 99
+    "boss_damage": 37
   },
   "inventory": [
     {
@@ -65,6 +65,11 @@
       "name": "👑 Crown of Commits",
       "rarity": "Legendary",
       "value": 1000
+    },
+    {
+      "name": "🐉 Dragon Scale",
+      "rarity": "Epic",
+      "value": 500
     }
   ],
   "achievements": [],
@@ -851,17 +856,36 @@
       "gold": 75,
       "boss_damage": 37,
       "attribute": "knowledge"
+    },
+    {
+      "date": "2026-11-10",
+      "status": "active",
+      "event": "📚 Ancient Knowledge",
+      "type": null,
+      "description": "You discovered forgotten documentation.",
+      "xp": 75,
+      "gold": 75,
+      "boss_damage": 37,
+      "attribute": "knowledge",
+      "treasure": "🐉 Dragon Scale"
     }
   ],
-  "boss_week": "2026-W45",
+  "boss_week": "2026-W46",
   "boss": {
-    "name": "🧟 Test Zombie",
-    "max_hp": 750,
-    "hp": 651,
-    "defeated": false
+    "name": "🐍 Bug Serpent",
+    "max_hp": 1250,
+    "hp": 1213,
+    "defeated": false,
+    "generation": 1,
+    "generation_label": "1st"
   },
   "hidden_achievement_checks": [
     "2026-11-07",
-    "2026-11-08"
-  ]
+    "2026-11-08",
+    "2026-11-10"
+  ],
+  "boss_generations": {
+    "🐍 Bug Serpent": 1
+  },
+  "boss_history": []
 }

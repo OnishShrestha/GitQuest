@@ -2,13 +2,13 @@
 
 ### 🧙 Onish — Level 56
 
-**XP:** `5500`
+**XP:** `5575`
 
-`░░░░░░░░░░`
+`███████░░░`
 
-**💰 Gold:** 4455
+**💰 Gold:** 4530
 
-**🔥 Current Streak:** 2 days
+**🔥 Current Streak:** 3 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 60 |
-| 📅 Active Days | 60 |
+| ⚔️ Quests Completed | 61 |
+| 📅 Active Days | 61 |
 | 🌙 Rest Days | 19 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -28,11 +28,11 @@
 
 ## 🐉 Weekly Boss
 
-### 🧟 Test Zombie
+### 🐍 Bug Serpent
 
-HP: `651/750`
+HP: `1213/1250`
 
-`████████░░`
+`█████████░`
 
 Status:
 
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-11-10 — 📚 Ancient Knowledge (+75 XP)
 - 2026-11-08 — 📚 Ancient Knowledge (+75 XP)
 - 2026-11-07 — 📚 Ancient Knowledge (+75 XP)
 - 2026-11-06 — 🌙 Rest Day
 - 2026-11-05 — 🎁 Treasure Found (+50 XP)
-- 2026-11-04 — 🧪 Testing Challenge (+100 XP)
 
 ---
 

@@ -2,18 +2,18 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 56,
-    "xp": 5575,
-    "gold": 4530,
-    "streak": 3,
-    "days_active": 61,
+    "level": 57,
+    "xp": 5675,
+    "gold": 4590,
+    "streak": 4,
+    "days_active": 62,
     "days_skipped": 19,
-    "quests_completed": 61
+    "quests_completed": 62
   },
   "attributes": {
     "strength": 12,
     "intelligence": 1,
-    "defense": 15,
+    "defense": 16,
     "speed": 14,
     "knowledge": 24
   },
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 37
+    "boss_damage": 87
   },
   "inventory": [
     {
@@ -65,6 +65,11 @@
       "name": "👑 Crown of Commits",
       "rarity": "Legendary",
       "value": 1000
+    },
+    {
+      "name": "🐉 Dragon Scale",
+      "rarity": "Epic",
+      "value": 500
     },
     {
       "name": "🐉 Dragon Scale",
@@ -868,13 +873,25 @@
       "boss_damage": 37,
       "attribute": "knowledge",
       "treasure": "🐉 Dragon Scale"
+    },
+    {
+      "date": "2026-11-11",
+      "status": "active",
+      "event": "🧪 Testing Challenge",
+      "type": null,
+      "description": "A Test Zombie appeared in the testing caverns.",
+      "xp": 100,
+      "gold": 60,
+      "boss_damage": 50,
+      "attribute": "defense",
+      "treasure": "🐉 Dragon Scale"
     }
   ],
   "boss_week": "2026-W46",
   "boss": {
     "name": "🐍 Bug Serpent",
     "max_hp": 1250,
-    "hp": 1213,
+    "hp": 1163,
     "defeated": false,
     "generation": 1,
     "generation_label": "1st"
@@ -882,7 +899,8 @@
   "hidden_achievement_checks": [
     "2026-11-07",
     "2026-11-08",
-    "2026-11-10"
+    "2026-11-10",
+    "2026-11-11"
   ],
   "boss_generations": {
     "🐍 Bug Serpent": 1

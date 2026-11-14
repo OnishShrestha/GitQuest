@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 58,
-    "xp": 5775,
-    "gold": 4640,
-    "streak": 0,
-    "days_active": 63,
+    "level": 59,
+    "xp": 5850,
+    "gold": 4715,
+    "streak": 1,
+    "days_active": 64,
     "days_skipped": 20,
-    "quests_completed": 63
+    "quests_completed": 64
   },
   "attributes": {
     "strength": 13,
     "intelligence": 1,
     "defense": 16,
     "speed": 14,
-    "knowledge": 24
+    "knowledge": 25
   },
   "stats": {
     "quests_completed": 0,
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 137
+    "boss_damage": 174
   },
   "inventory": [
     {
@@ -75,6 +75,11 @@
       "name": "🐉 Dragon Scale",
       "rarity": "Epic",
       "value": 500
+    },
+    {
+      "name": "🧪 XP Potion",
+      "rarity": "Common",
+      "value": 100
     }
   ],
   "achievements": [],
@@ -902,13 +907,25 @@
       "status": "rest",
       "event": "🌙 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-11-14",
+      "status": "active",
+      "event": "📚 Ancient Knowledge",
+      "type": null,
+      "description": "You discovered forgotten documentation.",
+      "xp": 75,
+      "gold": 75,
+      "boss_damage": 37,
+      "attribute": "knowledge",
+      "treasure": "🧪 XP Potion"
     }
   ],
   "boss_week": "2026-W46",
   "boss": {
     "name": "🐍 Bug Serpent",
     "max_hp": 1250,
-    "hp": 1113,
+    "hp": 1076,
     "defeated": false,
     "generation": 1,
     "generation_label": "1st"
@@ -918,7 +935,8 @@
     "2026-11-08",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-14"
   ],
   "boss_generations": {
     "🐍 Bug Serpent": 1

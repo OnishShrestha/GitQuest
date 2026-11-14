@@ -1,14 +1,14 @@
 # ⚔️ GitQuest
 
-### 🧙 Onish — Level 58
+### 🧙 Onish — Level 59
 
-**XP:** `5775`
+**XP:** `5850`
 
-`███████░░░`
+`█████░░░░░`
 
-**💰 Gold:** 4640
+**💰 Gold:** 4715
 
-**🔥 Current Streak:** 0 days
+**🔥 Current Streak:** 1 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 63 |
-| 📅 Active Days | 63 |
+| ⚔️ Quests Completed | 64 |
+| 📅 Active Days | 64 |
 | 🌙 Rest Days | 20 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -30,7 +30,7 @@
 
 ### 🐍 Bug Serpent
 
-HP: `1113/1250`
+HP: `1076/1250`
 
 `████████░░`
 
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-11-14 — 📚 Ancient Knowledge (+75 XP)
 - 2026-11-13 — 🌙 Rest Day
 - 2026-11-12 — 🐛 Bug Ambush (+100 XP)
 - 2026-11-11 — 🧪 Testing Challenge (+100 XP)
 - 2026-11-10 — 📚 Ancient Knowledge (+75 XP)
-- 2026-11-08 — 📚 Ancient Knowledge (+75 XP)
 
 ---
 

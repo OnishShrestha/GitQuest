@@ -5,9 +5,9 @@
     "level": 61,
     "xp": 6050,
     "gold": 4825,
-    "streak": 3,
+    "streak": 0,
     "days_active": 66,
-    "days_skipped": 20,
+    "days_skipped": 21,
     "quests_completed": 66
   },
   "attributes": {
@@ -953,6 +953,12 @@
       "boss_damage": 50,
       "attribute": "defense",
       "treasure": "💎 Git Crystal"
+    },
+    {
+      "date": "2026-11-18",
+      "status": "rest",
+      "event": "🌙 Rest Day",
+      "description": "The kingdom rests today."
     }
   ],
   "boss_week": "2026-W47",

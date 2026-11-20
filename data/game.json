@@ -2,16 +2,16 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 62,
-    "xp": 6150,
-    "gold": 4885,
-    "streak": 1,
-    "days_active": 67,
+    "level": 63,
+    "xp": 6250,
+    "gold": 4935,
+    "streak": 2,
+    "days_active": 68,
     "days_skipped": 21,
-    "quests_completed": 67
+    "quests_completed": 68
   },
   "attributes": {
-    "strength": 14,
+    "strength": 15,
     "intelligence": 1,
     "defense": 18,
     "speed": 14,
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 100
+    "boss_damage": 150
   },
   "inventory": [
     {
@@ -90,6 +90,11 @@
       "name": "💎 Git Crystal",
       "rarity": "Rare",
       "value": 250
+    },
+    {
+      "name": "🧪 XP Potion",
+      "rarity": "Common",
+      "value": 100
     },
     {
       "name": "🧪 XP Potion",
@@ -976,13 +981,25 @@
       "boss_damage": 50,
       "attribute": "defense",
       "treasure": "🧪 XP Potion"
+    },
+    {
+      "date": "2026-11-20",
+      "status": "active",
+      "event": "🐛 Bug Ambush",
+      "type": null,
+      "description": "A Bug Goblin attacked the kingdom!",
+      "xp": 100,
+      "gold": 50,
+      "boss_damage": 50,
+      "attribute": "strength",
+      "treasure": "🧪 XP Potion"
     }
   ],
   "boss_week": "2026-W47",
   "boss": {
     "name": "🐍 Bug Serpent",
     "max_hp": 1250,
-    "hp": 1150,
+    "hp": 1100,
     "defeated": false,
     "generation": 2,
     "generation_label": "2nd"
@@ -996,7 +1013,8 @@
     "2026-11-14",
     "2026-11-15",
     "2026-11-17",
-    "2026-11-19"
+    "2026-11-19",
+    "2026-11-20"
   ],
   "boss_generations": {
     "🐍 Bug Serpent": 2

@@ -2,18 +2,18 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 63,
-    "xp": 6250,
-    "gold": 4935,
-    "streak": 2,
-    "days_active": 68,
+    "level": 64,
+    "xp": 6350,
+    "gold": 4995,
+    "streak": 3,
+    "days_active": 69,
     "days_skipped": 21,
-    "quests_completed": 68
+    "quests_completed": 69
   },
   "attributes": {
     "strength": 15,
     "intelligence": 1,
-    "defense": 18,
+    "defense": 19,
     "speed": 14,
     "knowledge": 25
   },
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 150
+    "boss_damage": 200
   },
   "inventory": [
     {
@@ -993,13 +993,24 @@
       "boss_damage": 50,
       "attribute": "strength",
       "treasure": "🧪 XP Potion"
+    },
+    {
+      "date": "2026-11-21",
+      "status": "active",
+      "event": "🧪 Testing Challenge",
+      "type": null,
+      "description": "A Test Zombie appeared in the testing caverns.",
+      "xp": 100,
+      "gold": 60,
+      "boss_damage": 50,
+      "attribute": "defense"
     }
   ],
   "boss_week": "2026-W47",
   "boss": {
     "name": "🐍 Bug Serpent",
     "max_hp": 1250,
-    "hp": 1100,
+    "hp": 1050,
     "defeated": false,
     "generation": 2,
     "generation_label": "2nd"
@@ -1014,7 +1025,8 @@
     "2026-11-15",
     "2026-11-17",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
   ],
   "boss_generations": {
     "🐍 Bug Serpent": 2

@@ -7,7 +7,7 @@
     "gold": 4995,
     "streak": 0,
     "days_active": 69,
-    "days_skipped": 22,
+    "days_skipped": 23,
     "quests_completed": 69
   },
   "attributes": {
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 200
+    "boss_damage": 0
   },
   "inventory": [
     {
@@ -1010,16 +1010,22 @@
       "status": "rest",
       "event": "🌙 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-11-24",
+      "status": "rest",
+      "event": "🌙 Rest Day",
+      "description": "The kingdom rests today."
     }
   ],
-  "boss_week": "2026-W47",
+  "boss_week": "2026-W48",
   "boss": {
-    "name": "🐍 Bug Serpent",
-    "max_hp": 1250,
-    "hp": 1050,
+    "name": "👹 Dependency Demon",
+    "max_hp": 1000,
+    "hp": 1000,
     "defeated": false,
-    "generation": 2,
-    "generation_label": "2nd"
+    "generation": 1,
+    "generation_label": "1st"
   },
   "hidden_achievement_checks": [
     "2026-11-07",
@@ -1035,7 +1041,8 @@
     "2026-11-21"
   ],
   "boss_generations": {
-    "🐍 Bug Serpent": 2
+    "🐍 Bug Serpent": 2,
+    "👹 Dependency Demon": 1
   },
   "boss_history": []
 }

@@ -18,7 +18,7 @@
 |---|---:|
 | ⚔️ Quests Completed | 69 |
 | 📅 Active Days | 69 |
-| 🌙 Rest Days | 22 |
+| 🌙 Rest Days | 23 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
 | 🧪 Tests Added | 0 |
@@ -28,11 +28,11 @@
 
 ## 🐉 Weekly Boss
 
-### 🐍 Bug Serpent
+### 👹 Dependency Demon
 
-HP: `1050/1250`
+HP: `1000/1000`
 
-`████████░░`
+`██████████`
 
 Status:
 
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-11-24 — 🌙 Rest Day
 - 2026-11-22 — 🌙 Rest Day
 - 2026-11-21 — 🧪 Testing Challenge (+100 XP)
 - 2026-11-20 — 🐛 Bug Ambush (+100 XP)
 - 2026-11-19 — 🧪 Testing Challenge (+100 XP)
-- 2026-11-18 — 🌙 Rest Day
 
 ---
 

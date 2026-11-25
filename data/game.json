@@ -2,19 +2,19 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 64,
-    "xp": 6350,
-    "gold": 4995,
-    "streak": 0,
-    "days_active": 69,
+    "level": 65,
+    "xp": 6475,
+    "gold": 5075,
+    "streak": 1,
+    "days_active": 70,
     "days_skipped": 23,
-    "quests_completed": 69
+    "quests_completed": 70
   },
   "attributes": {
     "strength": 15,
     "intelligence": 1,
     "defense": 19,
-    "speed": 14,
+    "speed": 15,
     "knowledge": 25
   },
   "stats": {
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 0
+    "boss_damage": 62
   },
   "inventory": [
     {
@@ -100,6 +100,11 @@
       "name": "🧪 XP Potion",
       "rarity": "Common",
       "value": 100
+    },
+    {
+      "name": "👑 Crown of Commits",
+      "rarity": "Legendary",
+      "value": 1000
     }
   ],
   "achievements": [],
@@ -1016,13 +1021,25 @@
       "status": "rest",
       "event": "🌙 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-11-25",
+      "status": "active",
+      "event": "⚡ Speed Trial",
+      "type": null,
+      "description": "The kingdom challenges your automation skills.",
+      "xp": 125,
+      "gold": 80,
+      "boss_damage": 62,
+      "attribute": "speed",
+      "treasure": "👑 Crown of Commits"
     }
   ],
   "boss_week": "2026-W48",
   "boss": {
     "name": "👹 Dependency Demon",
     "max_hp": 1000,
-    "hp": 1000,
+    "hp": 938,
     "defeated": false,
     "generation": 1,
     "generation_label": "1st"
@@ -1038,7 +1055,8 @@
     "2026-11-17",
     "2026-11-19",
     "2026-11-20",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-25"
   ],
   "boss_generations": {
     "🐍 Bug Serpent": 2,

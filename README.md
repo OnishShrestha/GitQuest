@@ -8,7 +8,7 @@
 
 **💰 Gold:** 5075
 
-**🔥 Current Streak:** 1 days
+**🔥 Current Streak:** 0 days
 
 ---
 
@@ -18,7 +18,7 @@
 |---|---:|
 | ⚔️ Quests Completed | 70 |
 | 📅 Active Days | 70 |
-| 🌙 Rest Days | 23 |
+| 🌙 Rest Days | 24 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
 | 🧪 Tests Added | 0 |
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-11-26 — 🌙 Rest Day
 - 2026-11-25 — ⚡ Speed Trial (+125 XP)
 - 2026-11-24 — 🌙 Rest Day
 - 2026-11-22 — 🌙 Rest Day
 - 2026-11-21 — 🧪 Testing Challenge (+100 XP)
-- 2026-11-20 — 🐛 Bug Ambush (+100 XP)
 
 ---
 

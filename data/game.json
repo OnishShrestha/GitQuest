@@ -5,9 +5,9 @@
     "level": 65,
     "xp": 6475,
     "gold": 5075,
-    "streak": 1,
+    "streak": 0,
     "days_active": 70,
-    "days_skipped": 23,
+    "days_skipped": 24,
     "quests_completed": 70
   },
   "attributes": {
@@ -1033,6 +1033,12 @@
       "boss_damage": 62,
       "attribute": "speed",
       "treasure": "👑 Crown of Commits"
+    },
+    {
+      "date": "2026-11-26",
+      "status": "rest",
+      "event": "🌙 Rest Day",
+      "description": "The kingdom rests today."
     }
   ],
   "boss_week": "2026-W48",

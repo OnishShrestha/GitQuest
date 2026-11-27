@@ -1,14 +1,14 @@
 # ⚔️ GitQuest
 
-### 🧙 Onish — Level 65
+### 🧙 Onish — Level 66
 
-**XP:** `6475`
+**XP:** `6525`
 
-`███████░░░`
+`██░░░░░░░░`
 
-**💰 Gold:** 5075
+**💰 Gold:** 5175
 
-**🔥 Current Streak:** 0 days
+**🔥 Current Streak:** 1 days
 
 ---
 
@@ -16,8 +16,8 @@
 
 | Statistic | Value |
 |---|---:|
-| ⚔️ Quests Completed | 70 |
-| 📅 Active Days | 70 |
+| ⚔️ Quests Completed | 71 |
+| 📅 Active Days | 71 |
 | 🌙 Rest Days | 24 |
 | 🐛 Bugs Defeated | 0 |
 | 📚 Docs Improved | 0 |
@@ -30,7 +30,7 @@
 
 ### 👹 Dependency Demon
 
-HP: `938/1000`
+HP: `913/1000`
 
 `█████████░`
 
@@ -48,11 +48,11 @@ Status:
 
 ## 📜 Recent Adventures
 
+- 2026-11-27 — 🎁 Treasure Found (+50 XP)
 - 2026-11-26 — 🌙 Rest Day
 - 2026-11-25 — ⚡ Speed Trial (+125 XP)
 - 2026-11-24 — 🌙 Rest Day
 - 2026-11-22 — 🌙 Rest Day
-- 2026-11-21 — 🧪 Testing Challenge (+100 XP)
 
 ---
 

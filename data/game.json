@@ -2,20 +2,20 @@
   "player": {
     "name": "Onish",
     "class": "Warrior",
-    "level": 65,
-    "xp": 6475,
-    "gold": 5075,
-    "streak": 0,
-    "days_active": 70,
+    "level": 66,
+    "xp": 6525,
+    "gold": 5175,
+    "streak": 1,
+    "days_active": 71,
     "days_skipped": 24,
-    "quests_completed": 70
+    "quests_completed": 71
   },
   "attributes": {
     "strength": 15,
     "intelligence": 1,
     "defense": 19,
     "speed": 15,
-    "knowledge": 25
+    "knowledge": 26
   },
   "stats": {
     "quests_completed": 0,
@@ -23,7 +23,7 @@
     "docs_improved": 0,
     "tests_added": 0,
     "treasures_found": 0,
-    "boss_damage": 62
+    "boss_damage": 87
   },
   "inventory": [
     {
@@ -1039,13 +1039,24 @@
       "status": "rest",
       "event": "🌙 Rest Day",
       "description": "The kingdom rests today."
+    },
+    {
+      "date": "2026-11-27",
+      "status": "active",
+      "event": "🎁 Treasure Found",
+      "type": null,
+      "description": "You discovered a hidden Git Crystal.",
+      "xp": 50,
+      "gold": 100,
+      "boss_damage": 25,
+      "attribute": "knowledge"
     }
   ],
   "boss_week": "2026-W48",
   "boss": {
     "name": "👹 Dependency Demon",
     "max_hp": 1000,
-    "hp": 938,
+    "hp": 913,
     "defeated": false,
     "generation": 1,
     "generation_label": "1st"
@@ -1062,7 +1073,8 @@
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-27"
   ],
   "boss_generations": {
     "🐍 Bug Serpent": 2,
